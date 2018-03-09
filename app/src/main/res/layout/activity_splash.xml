@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.example.rebcesp.fastdrinkfinal.Splash">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        //Centramos la imagen CORRECTAMENTE
+
+        <com.mikhaellopez.circularfillableloaders.CircularFillableLoaders
+            android:id="@+id/circularFillableLoaders"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/beer"
+            app:cfl_border="true"
+            android:layout_marginBottom="20dp"
+            app:cfl_border_width="0dp"
+            app:cfl_progress="70"
+            app:cfl_wave_amplitude="0.06"
+            app:cfl_wave_color="#FB9125" />
+
+
+        <ImageView
+            android:id="@+id/ImagenLogo"
+            android:layout_width="match_parent"
+            android:layout_height="275dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/fdamarillo" />
+
+
+
+    //Añadimos el ancho y el alto 277dp para que tenga un buen tamaño el logo
+    //Centramos
+    //Dejamos margen 130dp para situar en el centro del layout
+
+
+    </LinearLayout>
+</RelativeLayout>

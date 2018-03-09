@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "517925162485",
+    "firebase_url": "https://fastdrinkfinal-1c8f5.firebaseio.com",
+    "project_id": "fastdrinkfinal-1c8f5",
+    "storage_bucket": "fastdrinkfinal-1c8f5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517925162485:android:9ba82d9160536f58",
+        "android_client_info": {
+          "package_name": "com.example.rebcesp.fastdrinkfinalv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517925162485-co9v97iok7hpj7trhq60pac76ff6ilba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rebcesp.fastdrinkfinalv1",
+            "certificate_hash": "8fd386fef145cdefd8e9b8c617f72cc1c823cfd3"
+          }
+        },
+        {
+          "client_id": "517925162485-2qa2i93ag6tkbd01an582ptdmd34p2s9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcFqYB-QRXArF42Q-j9dMTYNMuLcWDICU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517925162485-2qa2i93ag6tkbd01an582ptdmd34p2s9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
